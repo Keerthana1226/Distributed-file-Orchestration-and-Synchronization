@@ -69,7 +69,6 @@ user3:password3
 - **server.py:** Manages server-side operations such as handling client connections, user authentication, and managing file operations.
 
 ## **Error Handling**
-- **Connection Errors:** Connection issues such as timeouts are handled gracefully with error messages.
 - **Unauthorized Access:** Ensures users only access their own files by validating file paths and user credentials.
 - **Invalid Commands:** The system prompts users for valid input if they enter incorrect commands.
 
