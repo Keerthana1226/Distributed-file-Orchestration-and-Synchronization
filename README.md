@@ -13,7 +13,7 @@ This project implements a simple client-server application to manage file operat
 - [Future Enhancements](#future-enhancements)
 
 ## Introduction
-This file management system allows clients to connect to the server, authenticate themselves, and perform file operations in their individual directories. The server supports multiple client connections simultaneously. Each client interacts with the server to **upload**, **download**, **preview**, **delete**, and **list** files. There is **no timeout mechanism** in this version.
+This file management system allows clients to connect to the server, authenticate themselves, and perform file operations in their individual directories. The server supports multiple client connections simultaneously. Each client interacts with the server to **upload**, **download**, **preview**, **delete**, and **list** files.
 
 ## Features
 - **User Authentication:** Users authenticate themselves with a unique username and password stored in a credentials file (`id_passwd.txt`).
